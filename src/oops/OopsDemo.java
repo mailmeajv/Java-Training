@@ -1,0 +1,12 @@
+package oops;
+
+public class OopsDemo {
+        int x = 10;
+
+        public static void main(String[] args) {
+           OopsDemo myObj = new OopsDemo();
+            System.out.println(myObj.x);
+            myObj.x = 25; // x is now 25
+            System.out.println(myObj.x);
+        }
+}
